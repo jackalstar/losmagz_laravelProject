@@ -1,0 +1,301 @@
+.verifyphoto {
+    width:100%;
+    border-radius: 10px;
+}
+.plan-modal-body {
+    background-image: linear-gradient(yellow, white);
+}
+.woman-img {
+    width: 95%;
+    position: relative;
+    top: -43px;
+}
+.modal-part-collection {
+    position: relative;
+    top: -75px;
+}
+.modal-part {
+    margin: 5px;
+}
+.part-head {
+    background-color: #929EB1;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 10px 20px;
+}
+.part-body {
+    background-color: white;
+    padding: 10px 20px;
+    height: 70px;
+}
+.part-footer {
+    background-color: #929EB1;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 10px 20px;
+    height: 60px;
+}
+.modal-part:hover {
+    cursor: pointer;
+}
+
+.modal-part:hover .part-head {
+    background-color: green;
+    color:white;
+}
+.modal-part:hover .part-body {
+    border-left:2px solid green;
+    border-right:2px solid green;
+}
+.modal-part:hover .part-footer {
+    background-color: green;
+    color:white;
+}
+.cus-active{
+    background-color: green;
+    color:white;
+}
+.body-active{
+    border-left:2px solid green;
+    border-right:2px solid green;
+}
+
+/*the part for withdraw modal*/
+    /* Style the tab */
+    .tab {
+      overflow: hidden;
+      border: 1px solid #ccc;
+      background-color: #f1f1f1;
+    }
+    
+    /* Style the buttons inside the tab */
+    .tab button {
+      background-color: inherit;
+      float: left;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      width: 50%;
+      padding: 14px 16px;
+      transition: 0.3s;
+      font-size: 17px;
+    }
+    
+    /* Change background color of buttons on hover */
+    .tab button:hover {
+      background-color: #ddd;
+    }
+    
+    /* Create an active/current tablink class */
+    .tab button.active {
+      background-color: #ccc;
+    }
+    
+    /* Style the tab content */
+    .tabcontent {
+      display: none;
+      padding: 6px 12px;
+      border: 1px solid #ccc;
+      border-top: none;
+    }
+
+/*the part for withdraw modal*/
+
+/*view requests part*/
+.dropdown-menu-friend-request {
+        position: absolute;
+        z-index: 3;
+        background-color: var(--bg-color);
+        padding: 35px;
+        border: 1px solid #ddcece;
+        border-radius: 5px;
+        box-shadow: 5px 10px 18px #888888;
+        transform: translate(-32px, 13px);
+    }
+    .one_request {
+        padding: 5px 10px;
+    }
+    .one_request:hover {
+        
+    }
+    .contact-list-avatar {
+        width: 40px;
+        height: 40px;
+        border-radius: 30px;
+    }
+    .request-username {
+        font-size: 16px;
+    }
+    .pop-up-btn {
+        height: 40px;
+    }
+    .request_hide {
+        display: none !important;
+    }
+/*view requests part*/
+
+    .contacts {
+        background-color: red;
+        height: 100px;
+    }
+    .contact_avatar {
+        border-radius: 10px;
+    }
+    .current_avatar {
+        border-radius: 5px;
+    }
+    .call_partner_avatar {
+        border-radius: 150px;
+    }
+    .contact_user_text {
+        margin: 0;
+        padding: 0;
+        font-size: 12px;
+    }
+    .contact_favbtn {
+        width: 36px;
+        height: 36px;
+        
+    }
+    .contact_users {
+         list-style-type:none;
+         margin: 10px 5px;
+         padding: 10px;
+    }
+    .contact_users li {
+        margin: 10px 0px;
+    }
+    .contact-btn {
+        cursor: pointer;
+        border: 1px solid #C5C5C5;
+        padding: 5px 10px;
+        border-radius: 5px;
+    }
+    .contact-btn:hover {
+        background-color: #C5C5C5;
+    }
+    .contact-btn-active {
+        background-color: #C5C5C5;
+    }
+    .about {
+        overflow-y: scroll;
+    }
+    /*request part*/
+    .request_part {
+        margin: 50px 30% 0px;
+    }
+    .request_image {
+        width: 200px;
+        height: 200px;
+        border-radius: 150px;
+    }
+    .request_p {
+        border: 1px solid #D7ECDA;
+        background-color: #E9F6EB;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+
+    .unread_message {
+        background-color: red;   
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    
+.fav-btn {
+    cursor: pointer;
+}
+
+
+    
+    
+    .emoji {
+        margin: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 65px;
+    }
+    .emoji:hover {
+        cursor: pointer;
+        box-shadow: 5px 10px 18px #4335b1;
+    }
+    .emoji-field {
+        display: flex;
+    }
+    .send-photo {
+        padding: 5px;
+        width: 150px;
+        height: 150px;
+    }  
+    .send-photo:hover {
+        cursor: pointer;
+    }  
+    .preview-photo {
+        width: 100%;
+        height: 100%;
+    }
+    .take-photo-show {
+        display: block;
+    }
+    .take-photo-hide {
+        display: none;
+    }
+    .round-10 {
+        border-radius: 10px;
+    }
+    .recently-chat-history {
+        margin-top: 30px;
+        padding: 10px;
+    }
+    .video-history {
+        list-style-type: none;
+        padding: 5px;
+        margin: 20px 70px;
+    }
+    .video-history-li {
+        margin: 10px;
+        padding: 5px;
+        box-shadow: 1px 1px 4px #4335b1;
+    }
+    .local-source {
+        font-size: 16px;
+        color: black !important;
+    }
+    .remote-source {
+        font-size: 16px;
+        color: white !important;
+    }
+    .local-trans {
+        clear: both;
+        font-size: 12px;
+        color: #1411118c  !important;
+    }
+    .remote-trans {
+        clear: both;
+        font-size: 12px;
+        color: #f5ebebbf  !important;
+    }
+    .local-timer {
+        clear: both;
+        font-size: 12px;
+        color: #1411118c  !important;
+    }
+    .remote-timer {
+        clear: both;
+        font-size: 12px;
+        color: #f5ebebbf  !important;
+    }
+/*header navbar*/
+
+.dropdown-menu {
+
+    border: none;
+    padding: 0;
+    -webkit-box-shadow: 0 1px 5px 0 rgb(0 0 0 / 10%);
+    box-shadow: 0 1px 5px 0 rgb(0 0 0 / 10%);
+    min-width: 16rem;
+    z-index: 2;
+}
